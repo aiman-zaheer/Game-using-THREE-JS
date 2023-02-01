@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  
+</head>
+<body>
+    <div class = "splash">
+        <h1 class = "fade-in">Welcome!</h1>
+    </div>
+    <div class = "can_block">
+        <canvas id="myCanvas" class="can-h" width="700" height="80px">
+        Your browser does not support the canvas element.
+        </canvas>
+        <canvas id="myCanvas2" class = "can-h"width="700" height="80px">
+        Your browser does not support the canvas element.
+        </canvas>
+        <canvas id="myCanvas3" class = "can-h" width="700" height="80px ">
+        Your browser does not support the canvas element.
+        </canvas>
+        <canvas id="myCanvas4" class = "can-h" width="700" height="80px">
+        Your browser does not support the canvas element.
+        </canvas>
+    </div>
+
+    <button id = "btn2" class = "btn" onclick="play()">next</button>
+    
+    <div id = "img" class = "back-img">
+        
+        <canvas id = "canvas5" class = "canvas">
+           
+            <audio id = "audio" loop src="Running Footstep.mp3" type="audio/mp3">
+            </audio>
+            
+        </canvas>
+    </div>
+
+    <div class = "movebtn3">
+        <button class = "movebtn" onclick='moveLeft()'>Left</button>
+        <button class = "movebtn2" onclick='moveRight()'>Right</button>
+</div>
+    <script src="logic.js"></script>
+</body>
+
+</html>
